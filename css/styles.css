@@ -1,0 +1,511 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+body{
+    font-family: "Montserrat";
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    color: #151349;
+    font-size: 5.5rem;
+    line-height: 1.5;
+    font-weight: 750;
+}
+h2{
+    font-family: "Montserrat-Bold";
+    color: #151349;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 700;
+}
+  
+h3{
+    font-family: "Montserrat-Black";
+    color: #151349;
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+p{
+    color: #8f8f8f;
+    text-align: justify;
+}
+
+ul{
+    color: #8f8f8f;   
+}
+
+
+/* Navbar */
+.navbar{
+    margin-bottom: 4.5rem;
+    position: sticky;
+    top: 0;
+}
+
+.nav-item{
+    margin-right: 12px;
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-link{
+    font-family: "Montserrat-Bold";
+    font-size: 1.4rem;
+    font-weight: normal;
+    color: #2e2c5e !important;
+
+}
+
+  .nav-link:hover {
+    color: #ffad00 !important;
+}
+  
+/* Download button  */
+.download-button{
+    margin: 10% 3% 10% 0;
+}
+
+/* Title Image*/
+.title-column{
+    background: url("../images/cloud.png") left 9rem no-repeat, url("../images/cloud.png") right top no-repeat;
+}
+
+.title-column-rh{
+    background-image: url("../images/title_img-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.title-image{
+    width: 100%;
+}
+
+.title-image1{
+    transition: transform 1s;
+
+}
+
+.title:hover .title-image1{
+    transform: translate(25px, 50px);
+}
+
+.title-image2{
+    transition: transform 1s;
+
+}
+
+.title:hover .title-image2{
+    transform: translate(-25px, -50px);
+}
+/* Welcome Section*/
+#welcome{
+    padding: 10% 0;
+}
+.welcome-content{
+    text-align: center;
+}
+
+.welcome-content-ls{
+    background-image: url("../images/welcome_img-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.welcome-content-ls:hover .title-image1{
+    transform: translate(25px, 50px);
+}
+
+
+.welcome-content-ls:hover .title-image2{
+    transform: translate(-25px, -50px);
+}
+
+/* Core And Values Section*/
+#coreAndValues{
+    padding: 10% 0;
+}
+.coreAndValues-content{
+    text-align: center;
+}
+
+.coreAndValues-content-rs{
+    background-image: url("../images/coreAndValues_img-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: right;
+}
+
+.coreAndValues-image{
+    width: 50%;
+}
+
+.coreAndValues-content-rs:hover .title-image1{
+    transform: translate(25px, 50px);
+}
+
+
+.coreAndValues-content-rs:hover .title-image2{
+    transform: translate(-25px, -50px);
+}
+
+/* Feature Section*/
+#features{
+    text-align: center;
+}
+
+.features-para{
+    text-align: center;
+}
+.features-image{
+    height: 40%;
+}
+
+.features-content{
+    text-align: center;
+}
+
+.yellow-heading{
+    color: #ffad00;
+}
+
+.feature-image{
+    font-size: 3rem;
+    color: #ef8172;
+    margin-bottom: 3%;
+}
+
+/* Stats Section*/
+#counter{
+    text-align: center;
+    padding: 100px 0;
+    background-image: url(http://codex-themes.com/thegem/sites/startup/wp-content/uploads/2019/09/8-2.png);background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#counter .count {
+    padding: 50px;
+    text-align: center;
+}
+.count h4 {
+    color: #fff;
+	font-size: 3rem;
+    margin-top: 0;
+    text-align: left;
+}
+
+#counter .number {
+    font-size: 6rem;
+    font-weight: 700;
+    margin: 0;
+    color: #ffb30a;
+
+}
+
+/* Ideas Section*/
+#ideas{
+    padding: 50px;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,125,0.4));
+}
+.card-images{
+    border-radius: 40%;
+    margin-bottom: 20px;
+}
+.card-title{
+    text-align: center;
+}
+
+.ideas-para{
+    text-align: justify;
+}
+
+
+/* Team Section */
+#team{
+    position: relative;
+    padding: 100px 0;
+    text-align: center;
+    background-image: conic-gradient( rgba(0,0,0,0) 270deg, rgba(0,0,125,0.3) 90deg);
+    background-image: conic-gradient(rgba(0,0,125,0.3) 0deg, rgba(0,0,0,0) 90deg,rgba(0,0,125,0.3) 210deg);
+
+}
+.setting-image{
+    position: absolute;
+    width: 20%;
+    top: 25%;
+    right: 20%;
+    opacity: 0.1;
+}
+
+.team-card-row{
+    min-height: 50rem;
+
+}
+
+#team p, #team .card a{
+    text-align: center;
+}
+
+/* Strategies Section */
+#strategies{
+    padding: 100px 0;
+}
+.strategy-left-part{
+    background-image: url("../images/welcome_img-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.strat-left-row{
+    margin-top: 100px;
+}
+
+.strat-ul1::marker{
+    color: #1d3df0;
+}
+.strat-ul2::marker{
+    color: #ffad00;
+}
+.strat-ul3::marker{
+    color: #7163ec;
+}
+
+.grad {
+    height: 200px;
+    width: 200px;
+    background-image: conic-gradient(#1d3df0 0deg, #1d3df0 240deg, #ffad00 240deg, #ffad00 300deg, #7163ec 300deg);
+    border-radius: 50%;
+  }
+
+
+  /* Choose us  */
+
+
+
+/* Testimonial section */
+#testimonials{
+    background-color: #2e2c5e;
+    text-align: center;
+}
+
+#testimonials p, #testimonials h2{
+    text-align: left;
+    color: #fff;
+}
+
+.testimonial-image{
+    margin: 2% 2% 5%;
+    border-radius: 100%;
+}
+
+/* Press */
+#press{
+    background-color: #2e2c5e;
+    color: #fff;
+}
+
+.press-image{
+    width: 15vw;
+    margin: 2% 2% 5%;
+}
+
+/* Pricing */
+#pricing{
+    text-align: center;
+    margin: 3% 0;
+}
+
+.pricing-column{
+    margin: 3% 0;
+}
+
+.card-top{
+    background-color: #2e2c5e;
+    border-radius: 100%;
+}
+
+.card-top-heading{
+    color: #fff;
+}
+
+.card-second-top-heading{
+    color: #7163ec;
+    font-weight: lighter;
+}
+
+/* Footer  */
+
+#footer{
+    background-color: #2e2c5e;
+    color: #fff;
+    text-align: center;
+    padding: 7% 0;
+}
+
+.footer-icon{
+    margin: 0 2%;
+    color: #fff;
+}
+
+.footer-links{
+    display: inline-block;
+}
+
+#footer p{
+    color: #fff;    
+}
+
+.footer-links a{
+    text-decoration: none;
+    color: #fff;
+    margin: 0 5px;
+}
+
+@media screen and (max-width: 768px){
+    #title{
+        text-align: center;
+    }
+    
+}
+
+
+/* ----------------------------------------------------------------------- */
+
+/* About Page  */
+
+/* ----------------------------------------------------------------------- */
+
+/* Title Section   */
+#about-title{
+    min-height: 100vh;
+    background-image: url(https://codex-themes.com/thegem/sites/startup/wp-content/uploads/2019/11/1.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: top;
+    background-size: cover;
+}
+
+.about-title, .about-title p{
+    text-align: center;
+    color: #151349;
+    
+}
+
+@keyframes rotate {
+    from {  transform: rotate(0deg);}
+    to {  transform: rotate(360deg);}
+  }
+
+.setting-image1{
+    position: absolute;
+    width: 20%;
+    top: 50%;
+    right: 5%;
+    opacity: 0.1;
+    animation: rotate 5s linear 0s infinite reverse;
+
+}
+
+.setting-image2{
+    position: absolute;
+    width: 10%;
+    top: 70%;
+    right: 25%;
+    opacity: 0.1;
+    animation: rotate 5s linear 0s infinite normal;
+
+}
+
+.setting-image3{
+    position: absolute;
+    width: 10%;
+    top: 25%;
+    right: 25%;
+    opacity: 0.1;
+    animation: rotate 5s linear 0s infinite normal;
+
+}
+
+.setting-image4{
+    position: absolute;
+    width: 10%;
+    top: 15%;
+    right: 35%;
+    opacity: 0.1;
+    animation: rotate 5s linear 0s infinite reverse;
+
+}
+.setting-image5{
+    position: absolute;
+    width: 20%;
+    top: 45%;
+    left: 0;
+    opacity: 0.1;
+    animation: rotate 5s linear 0s infinite normal;
+
+}
+
+
+/* Intro Section  */
+
+#intro{
+    padding: 10% 0;
+}
+
+.intro-image{
+    padding-top: 280px ;
+    padding-bottom: 280px ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.intro-image1{
+    background-image: url(https://codex-themes.com/thegem/sites/startup/wp-content/uploads/2019/09/4-2.jpg);
+}
+
+.intro-image2{
+    background-image: url(http://codex-themes.com/thegem/sites/startup/wp-content/uploads/2019/09/5-2.jpg);
+}
+
+.intro-image3{
+    background-image: url(http://codex-themes.com/thegem/sites/startup/wp-content/uploads/2019/09/6-3.jpg);
+}
+
+/* Mission Section  */
+.mision-para{
+    margin-top: 32px;
+}
+
+/* Team Tech Section  */
+#team-tech{
+    margin: 100px auto;
+}
+
+.team-tech-content{
+    text-align: center;
+}
+
+.team-tech-heading{
+    height: 30%;
+    margin-bottom: 25px;
+}
+
+.team-tech-image{
+    width: 15%;
+    margin: 20px auto;
+    opacity: 0.2;
+}
+
+
+
